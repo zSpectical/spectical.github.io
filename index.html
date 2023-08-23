@@ -40,33 +40,32 @@
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Contact Info</title>
 </head>
 <body>
 
-<h2>Cell that spans two rows</h2>
-<p>To make a cell span more than one row, use the rowspan attribute.</p>
+    <table width="25%" border="1" cellspacing="0" cellpadding="5">
+        <caption>Our Office Contact Info</caption>
+        <tr> 
+            <th>Name</th>
+            <th colspan="2">Phone Numbers</th>
+        </tr>
 
-<table style="width:100%">
-  <tr>
-    <th>Name</th>
-    <td>Jill</td>
-  </tr>
-  <tr>
-    <th rowspan="2">Phone</th>
-    <td>555-1234</td>
-  </tr>
-  <tr>
-    <td>555-8745</td>
-  </tr>
-</table>
+        <tr>
+            <td rowspan="2">Ole Johanssen</td>
+            <td>Cell</td>
+            <td>Office</td>
+        </tr>
+        <tr>
+            <!-- This row will need additional data if you want it to show -->
+            <td>Cell Number Here</td>
+            <td>Office Number Here</td>
+        </tr>
+    </table>
+
 </body>
 </html>
-
