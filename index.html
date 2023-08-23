@@ -44,32 +44,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Office Contact Info</title>
+    <title>Contacts Table</title>
 </head>
 <body>
 
-    <table width="25%" border="1" cellspacing="0" cellpadding="5">
-        <caption>Our Office Contact Info</caption>
-        <tr> 
-            <th>Name</th>
-            <th colspan="2">Phone Numbers</th>
-        </tr>
+<table border="1" cellspacing="0" cellpadding="5">
+    <!-- First row with headers -->
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Phone Number</th>
+    </tr>
 
-        <tr>
-            <td rowspan="1">Ole Johanssen</td>
-            <td colspan="1"> Cell</td>
-            <td>555-1212</td>
-        </tr>
-        <tr>
-            <td rowspan="1"> Office</td>
-            <td>444-1212</td>
-        </tr>
-        <tr>
-            <!-- This row will need additional data if you want it to show -->
-            <td>Cell Number Here</td>
-            <td>Office Number Here</td>
-        </tr>
-    </table>
+    <!-- Second row with Name, Phone type, and Number -->
+    <tr>
+        <td rowspan="2">John Doe</td>
+        <td>Cell</td>
+        <td>123-456-7890</td>
+    </tr>
+    <tr>
+        <td>Office</td>
+        <td>098-765-4321</td>
+    </tr>
+
+    <!-- Third row (You can fill this similar to the second row) -->
+    <tr>
+        <td rowspan="2">Jane Smith</td>
+        <td>Cell</td>
+        <td>456-789-0123</td>
+    </tr>
+    <tr>
+        <td>Office</td>
+        <td>789-012-3456</td>
+    </tr>
+</table>
 
 </body>
 </html>
