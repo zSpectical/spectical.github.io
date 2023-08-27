@@ -9,7 +9,7 @@ body {
     overflow: hidden;
 }
 
-h2 {
+.content h2 {
     color : red;
 }
 
