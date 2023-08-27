@@ -9,6 +9,10 @@ body {
     overflow: hidden;
 }
 
+h2 {
+    color : red;
+}
+
 .navbar a {
     float: left;
     display: block;
