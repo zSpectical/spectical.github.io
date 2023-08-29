@@ -7,28 +7,191 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about">About</a>
-            <a href="#home">Home</a>
-        </div>
+    <div id="root">
+        <div class="App">
+            <header>
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="logo.png" alt="logo">
+                    </div>
+                    <a href="#contactme">Contact Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experiences">Experience</a>
+                    <a href="#about">About</a>
+                </div>
+            </header>
+
+            <section id="home">
+                <div class="home">
+                    <video id="homemovie1" autoplay muted loop>
+                        <source src="homemovie.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                    
+                    
+                    <center>
+                        <div id="outbx">
+                            <h3>Hello! My name is...</h3>
+                        </div>
+                        <div id="bigname">
+                            <h2>Kian Shirvani</h2>
+                        </div>
+                        <div id="location">
+                            <h3>Vancouver, British Columbia, Canada</h3>
+                        </div>
+                        <div id="briefintro">
+                            <p>I'm a Computer Science student with a passion for learning new technologies!<br>Currently, I am exploring full stack web development.</p>
+                        </div>
+                        <div id="sociallinks">
+                            <a id="linkedin" href="https://www.linkedin.com">
+                                <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn Logo">
+                            </a>
+                            <a id="github" href="https://github.com/zSpectical">
+                                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github">
+                            </a>
+                            <a id="email" href="mailto:kian.shirvani@outlook.com">
+                                <img src="https://clipartix.com/wp-content/uploads/2016/09/Email-symbol-clipart-clipart-kid-3.jpeg" alt="email">
+                            </a>
+                            <a id="resume" href="file:///Users/kiansmacbook2023/Desktop/Resumes/RESUME%20TEST.pdf">
+                                <img src="resumelogo.png" alt="Resume">
+                            </a>
+                        </div>
+                    </center>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="aboutme">
+                    <h2>About Me</h2>
+                    <article id="story">
+                        <div id="background"> 
+                            <p>My journey into computer science began unexpectedly at the age of 12 with Call of Duty. While most were eager about the new maps or weapons, I was drawn to the intricate details of bug fixes and patch notes. These seemingly minor adjustments illuminated the vast world of software engineering for me. Discovering how a small code change could significantly impact gameplay sparked a passion.  I wanted to understand the intricate mechanics behind it, leading me down the path of software development and engineering.</p>
+                <p>During high school, after a couple of coding classes, I realized I was hooked on Computer Science. I decided then and there that I wanted to build software that could make a difference for people everywhere.</p>
+                <p>Currently, I'm studying <span class="highlight">Computer Science</span> at the <a class="highlight" href="https://www.ubc.ca/">University of British Columbia</a>.</p>
+                <p>I have experience with:</p>
+                <ul id="skillsandtools"> 
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Swift</li>
+                    <li>Git & GitHub </li>
+                    <li>Mac and Windows O.S</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+                
+                </div>
+
+                <div class="profile-container">
+                    <div class="pfp">
+                        <img src="image1.png" alt="Portrait of Kian Shirvani">
+                    </div>
+                    
+                    <div class="ubclogo">
+                        <a href="https://www.ubc.ca/">  <img src="ubclogo.png" alt="UBC Logo" id="ubcimage"> </a>
+                        <p> Expected Graduation: Spring 2026</p>
+                    
+                    </div>
+                </div>
+            </section>
+
+            <section id="experiences"> 
+                <h2>Work Experiences</h2>
+                <div class="positions">
+                    <div id="techcoord">
+                        <ul> 
+                            <li class="techcoord">Technical Coordinator</li>
+
+                        <main>
+                        <p> Neelco Builder's (2014)</p>
+                        <p> May 2022 - Present</p>
+                        </main>
+                    </ul>
+                    </div>
 
 
-    </header>
-    <section>
-        <div class="home">
-             <div class="content">
-                <h3> Hello, it's me </h3>
-                <h2> Kian Shirvani</h2>
-                <h3> And I am a </h3>
-                <strong><p> 2nd Year Software Engineering student at the University of British Columbia!</p></strong>
-             </div>
+                </div>
+            </section>
 
-            </div>
-        
 
-    </section>
+            
+            
+            <section id="projects"> 
+                <h2> Projects </h2>
+                <h3> <center><i>Currently pursuing additional projects alongside academic commitments and personal time, with the progress achieved up to this point.</i></center></h3>
+                
+                <div class="project-row">
+                    <div class="project">
+                        <img src="tipcalclogo.jpeg" alt="Project 1">
+                       <center> <p><b><i><u>Tip Calculator Chrome Extension</b></u></i><br> </p> </center>
+                        <p> Used HTML, CSS, and JavaScript to create a user-friendly Chrome extension for accurate and convenient tip calculations.</p>
+
+                        <p id="projectlink"><a href="https://chrome.google.com/webstore/detail/tip-calculator/lighmnnmcppfabijdkhjiipgfcjknbol?hl=en&authuser=0">Chrome Web Store</a> <a href="https://github.com/zSpectical/spectical.github.io">GitHub</a>
+                    </div>
+                    <div class="project">
+                        <img src="comingsoon.jpeg" alt="Project 2">
+                        <p id="comingsoontext"><i>Currently in Progress <br> Expected: Late 2023</i></p>
+                    </div>
+                    <div class="project">
+                        <img src="comingsoon.jpeg" alt="Project 3">
+                        <p id="comingsoontext"><i>Currently in Progress <br> Expected: 2024</i> </p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+            <section id="contactme"> 
+                <h2>Contact Me!</h2>
+                <p> <i>I love meeting new people, learning new things or having a chat about coding!<br> Please leave me a message and I'll be sure to get back to you!</i></p>
+                <form action="mailto:kian.shirvani@outlook.com" method= "post" enctype="text/plain">
+                <div class="contact-container">
+                    <label>Your Name:</label>
+                    <input type="text" name= "yourName" value=""> <br>
+                    <label>Your Email:</label>
+                    <input type="email" name= "yourEmail" value=""> <br>
+                    <label>Your Message:</label>
+                    <textarea name="yourMessage" rows="10" cols="40"> </textarea><br>
+                    <input type="submit" name=""> 
+
+                </div>             
+                </form>
+            </section>
+
+
+            <section id="footer"> 
+                <div id="sociallinksfooter">
+                    <a id="linkedin" href="https://www.linkedin.com">
+                        <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn Logo">
+                    </a>
+                    <a id="github" href="https://github.com/zSpectical">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github">
+                    </a>
+                    <a id="email" href="mailto:kian.shirvani@outlook.com">
+                        <img src="https://clipartix.com/wp-content/uploads/2016/09/Email-symbol-clipart-clipart-kid-3.jpeg" alt="email">
+                    </a>
+                    <a id="resume" href="file:///Users/kiansmacbook2023/Desktop/Resumes/RESUME%20TEST.pdf">
+                        <img src="resumelogo.png" alt="Resume">
+                    </a>
+                </div>
+            
+                <div id="signature">
+                    <h1> Developed by Kian Shirvani August 2023</h1>
+                </div>
+            </section>
+            
+
+
+
+
+
+          
+             
+
+
+          
+
+        </div> <!-- .App -->
+    </div> <!-- #root -->
 </body>
 </html>
