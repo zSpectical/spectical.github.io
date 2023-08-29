@@ -2,8 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #222233;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
 body h2 {
@@ -59,7 +57,7 @@ hr {
             top: -225px;
             left: 0;
             width: 100%;
-            height: 865px;
+            height: 765px;
             object-fit: cover;
             z-index: -1;
         }
@@ -166,7 +164,7 @@ a.highlight:hover {
 
 #about { 
     page-break-before: always;
-    margin-top: 270px;
+    margin-top: 225px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,7 +201,7 @@ display: grid;
 
 #skillsandtools li:hover{
     background-color: gray;
-    color: #225ce3;
+    color: #225ce3
     -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
     box-shadow:         0px 0px 30px 0px rgba(34, 92, 227, 0.67);
 }
@@ -335,7 +333,6 @@ main li {
     width: 94%;              
     max-width: 1000px;
     margin-top: 50px;
-    
 }
 
 .project {
@@ -343,8 +340,6 @@ main li {
     border: 1px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-    box-shadow:         0px 0px 30px 0px rgba(34, 92, 227, 0.67);
 }
 
 
@@ -464,6 +459,12 @@ main li {
 #contactme input:focus, #contactme textarea:focus {
     border-color: #777788;  /* Border color when the input box is focused */
     outline: none;  /* Removes the default browser outline */
+}
+/*top button */
+
+#madeittop {
+    color: #40dbd6;
+    font-size: 24px;
 }
 
 /*footer*/
