@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #222233;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 body h2 {
