@@ -253,6 +253,7 @@ display: grid;
 /* start of experience */
 
 #workexperience {
+    page-break-before: always;
     padding-top: 2em;
     margin-top: 2em;
     margin-bottom: 100px;
@@ -317,9 +318,7 @@ main li {
 /* start of project */
 
 #projects {
-   
-    
-
+    page-break-before: always;
     color: white;
     padding: 20px 0;         
     display: flex;
@@ -501,3 +500,64 @@ main li {
     margin: 0; /* Removing the default margin */
 }
 
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    /* Hide the navbar */
+    .navbar {
+        display: none;
+    }
+
+    /* Projects adjustments */
+    #projects {
+        margin-top: 0;
+    }
+    .project-row {
+        flex-direction: column; 
+        gap: 1em; 
+        align-items: center; /
+    }
+    .project {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    /* About adjustments */
+    .content-container {
+        margin-top: -5em;
+    }
+    #story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px; 
+    }
+    .profile-container{
+        order: -1;
+    }
+
+    .aboutme {
+        order: 2;
+    }
+    #background {
+        order: 3;
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5em;
+        
+    }
+
+    
+    #workexperience {
+        margin-top: 650px; 
+    }
+    .workexperience-row {
+        flex-direction: column; 
+        gap: 1em; 
+        align-items: center;
+    }
+    .experience {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+}
