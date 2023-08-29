@@ -111,14 +111,7 @@ hr {
 }
 
 
-/* pretty sure dont need
-.content {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    height: 30px;
-    margin-left: 50px;
-    box-sizing: border-box;
-} */
+
 
 .highlight {
     color: #40dbd6;
@@ -269,9 +262,10 @@ main {
     display: none;
 }
 
-.experience:hover main {
+.experience:hover main { /* hover info boxes */
     display: block;
     overflow: hidden;
+
 }
 
 .workexperience-row img {
@@ -304,6 +298,8 @@ h2.jobtitle {
     list-style-type: none;
     text-align: center;
     height: min-content;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(34, 92, 227, 0.67);
 }
 
 /* points inside hover box */
