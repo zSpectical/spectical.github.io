@@ -59,7 +59,7 @@ hr {
             top: -225px;
             left: 0;
             width: 100%;
-            height: 845px;
+            height: 865px;
             object-fit: cover;
             z-index: -1;
         }
@@ -166,7 +166,7 @@ a.highlight:hover {
 
 #about { 
     page-break-before: always;
-    margin-top: 250px;
+    margin-top: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
