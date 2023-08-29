@@ -10,6 +10,11 @@ body h2 {
         font-size: 48px;
         
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 hr {
     margin-top: 70px;
@@ -93,24 +98,36 @@ hr {
 #sociallinks img:hover {
     filter: invert(0.7); 
 }
+/*start content */
+
+.content-container {
+    display: inline-block;
+    flex-flow: column;
+    align-items:center;
+    justify-content: space-evenly;
+    align-content: stretch;
+    width: 100%; /* Takes full width of the parent/container */
+    
+}
 
 
+/* pretty sure dont need
 .content {
     margin-top: 20px;
     margin-bottom: 0px;
     height: 30px;
     margin-left: 50px;
     box-sizing: border-box;
-}
+} */
 
 .highlight {
-    color: #225ce3;
+    color: #40dbd6;
 }
 
 /* styles.css */
 .profile-container {
     display:flex;
-    position:sticky ;
+
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
@@ -189,6 +206,14 @@ display: grid;
     text-align: center;
 }
 
+#skillsandtools li:hover{
+    background-color: gray;
+    color: #225ce3
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(34, 92, 227, 0.67);
+}
+
+
 
 .aboutme h2 {
     color: white;
@@ -227,31 +252,66 @@ display: grid;
 
 /* start of experience */
 
-#experiences {
-    margin-top: 100px;
-    page-break-before: always;
+#workexperience {
+    padding-top: 2em;
+    margin-top: 2em;
+    margin-bottom: 100px;
+    color: white;       
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 main {
     display: none;
 }
 
-li.techcoord {
-    font-size: 28px;
-    color: white;
+.experience:hover main {
+    display: block;
+    overflow: hidden;
 }
 
-li.techcoord:hover + main {
-    display: block
+.workexperience-row img {
+    width: 100%;
+    height: auto;
 }
-.positions li{
-    border: 1px solid #f1f1f1;w
+
+h2.jobtitle {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.workexperience-row {
+    display: flex;
+    justify-content:center;
+    gap: 3em;                 
+            
+    max-width: 2000px;
+    margin-top: 50px;
+}
+
+.experience {
+    flex-basis: calc(33.33% - 3%);   
+    border: 1px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: auto;
     border-radius: 15px;
     list-style-type: none;
     text-align: center;
-    display: inline-block;
-    align-items: center;
+    height: min-content;
+}
+
+/* points inside hover box */
+
+main li {
+    text-align: left;
+    line-height: 36px;
+    color: white;
+    font-size: 18px;
 }
 
 /* start of project */
@@ -352,8 +412,10 @@ li.techcoord:hover + main {
 
 #contactme {
     page-break-before: always;
-    margin-top: 100px;
+    margin-top: 2em;
     text-align: center;
+    padding-top: 2em;
+
     
 }
 
