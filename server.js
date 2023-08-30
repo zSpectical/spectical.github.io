@@ -16,7 +16,7 @@ app.post('/send-email', (req, res) => {
 
     const msg = {
         to: 'kian.shirvani@outlook.com', // Your email
-        from: 'noreply@yourdomain.com', // Your domain email address
+        from: 'kian.shirvani@outlook.com', // Your domain email address
         subject: `New Message from ${yourName} (${yourEmail})`,
         text: yourMessage,
     };
