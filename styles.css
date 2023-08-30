@@ -430,6 +430,8 @@ main li {
     color: white;
     text-align: center;
     font-size: 22px;
+    margin-top: 3em;
+    padding-top: 3em;
 }
 
 #bringcloser, #contactme h2, #bringcloser2 {
