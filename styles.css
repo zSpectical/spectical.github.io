@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #222233;
+    overflow-x: hidden;
 }
 
 body h2 {
@@ -30,6 +31,9 @@ hr {
     width: 100%;
     height: 75px;
     z-index: 1000;
+    background-color: #40dbd6;
+
+    
 
 }
 .logo img {
@@ -76,7 +80,7 @@ hr {
 }
 
 .navbar a:hover {
-    color: #225ce3;
+    color:#737574 ;
     height: 35px;
     
 }
@@ -148,6 +152,10 @@ hr {
     text-align: center;
     font-size: 18px;
 }
+
+#gradyear {
+    color: #40dbd6;
+}
  
 #ubcimage:hover {
     transition: filter 0.3s ease;
@@ -164,7 +172,8 @@ a.highlight:hover {
 
 #about { 
     page-break-before: always;
-    margin-top: 225px;
+    margin-top: 240px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -175,7 +184,7 @@ a.highlight:hover {
 
 #background {
     width: 40%;
-    margin-top: 100px;
+    margin-top: 75px;
     height: 75px;
     margin-left: 150px;
     line-height: 24px;
@@ -201,9 +210,9 @@ display: grid;
 
 #skillsandtools li:hover{
     background-color: gray;
-    color: #225ce3;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-    box-shadow:         0px 0px 30px 0px rgba(34, 92, 227, 0.67);
+    color: #225ce3
+    -webkit-box-shadow; 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow;        0px 0px 30px 0px rgba(34, 92, 227, 0.67);
 }
 
 
@@ -247,8 +256,8 @@ display: grid;
 
 #workexperience {
     page-break-before: always;
-    padding-top: 2em;
-    margin-top: 2em;
+    padding-top: 6em;
+    margin-top: 6em;
     margin-bottom: 100px;
     color: white;       
     display: flex;
@@ -273,10 +282,12 @@ main {
     height: auto;
 }
 
+
 h2.jobtitle {
     text-align: center;
     font-size: 24px;
     text-decoration: underline;
+    color: #40dbd6;
 }
 
 .workexperience-row {
@@ -322,7 +333,8 @@ main li {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    margin-top: -50px;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 /*project showcase boxes */ 
@@ -333,6 +345,7 @@ main li {
     width: 94%;              
     max-width: 1000px;
     margin-top: 50px;
+    
 }
 
 .project {
@@ -340,6 +353,8 @@ main li {
     border: 1px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(34, 92, 227, 0.67);
 }
 
 
@@ -358,6 +373,7 @@ main li {
     width: 50%;
     text-align: center;
     margin-top: 10px;
+    color: #40dbd6;
 }
 
 #comingsoontext {
@@ -404,62 +420,68 @@ main li {
 
 
 /* start of contact me */
-
 #contactme {
-    page-break-before: always;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
     margin-top: 2em;
-    text-align: center;
-    padding-top: 2em;
-
-    
-}
-
-#contactme p {
     color: white;
     text-align: center;
-    font-size: 18px;   
-   
+    font-size: 22px;
 }
 
-#contactme form {
-    margin-top: 50px;
-    color: #222233;
-    background-color: #222233;
-    
-  
+#bringcloser, #contactme h2, #bringcloser2 {
+    margin: 1% 0;
 }
 
-.contact-container {
-        background-color: black;
-        color: #f1f1f1;
-        padding: 0.5em;
-        font-size: 1.1em;
-        margin: 10px;
-        border: 2px solid white;
-        border-radius: 5px;
-        font-family: 'Blippo', fantasy;
-        width: 50%;
-        box-sizing: border-box;
-        margin: auto;
- 
+#bringcloser, #bringcloser2 {
+    color: #40dbd6;
 }
 
-#contactme input, #contactme textarea {
-    background-color: #444455;  /* This is the background color of the input box */
-    color: #f1f1f1;  /* This is the text color when user types */
-    border: 1px solid #555566;  /* Border color of the input box */
-    border-radius: 4px;  /* Rounded corners */
-    padding: 8px 12px;  /* Space inside the input box */
-    font-size: 16px;  /* Font size inside the input box */
-    margin-bottom: 10px;  /* Space between each input box */
-    width: 100%;  /* Takes the full width of its container */
-    box-sizing: border-box;  /* Ensures padding doesn't affect overall width */
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    max-height: 10%;
 }
 
-#contactme input:focus, #contactme textarea:focus {
-    border-color: #777788;  /* Border color when the input box is focused */
-    outline: none;  /* Removes the default browser outline */
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25%;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 3em;
+    padding-right: 1.5em;
 }
+
+.contactplatform img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover; 
+    filter: invert(1); 
+    margin: 5px; 
+}
+
+.icons-howtoreach {
+    color: #40dbd6;
+}
+
+.icons-info {
+    font-size: 16px;
+}
+
+.contactplatform a:hover {
+    color: white;
+}
+
+
 /*top button */
 
 #madeittop {
@@ -549,6 +571,17 @@ main li {
         
     }
 
+    .contact-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 150%;
+    }
+
+    .contactplatform {
+        margin-bottom: 2em;
+    }
+
     
     #workexperience {
         margin-top: 650px; 
@@ -562,10 +595,4 @@ main li {
         width: 90%; 
         margin: 0 auto; 
     }
-    #sociallinksfooter img {
-        
-        width: 50%;
-        height: 50%;
-    }
-    
 }
