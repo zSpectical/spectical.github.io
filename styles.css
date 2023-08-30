@@ -278,8 +278,8 @@ display: grid;
 
 #workexperience {
     page-break-before: always;
-    padding-top: 6em;
-    margin-top: 6em;
+    padding-top: 5em;
+    margin-top: 5em;
     margin-bottom: 100px;
     color: white;       
     display: flex;
