@@ -193,6 +193,9 @@ a.highlight:hover {
     margin-bottom: 50px;
  
 }
+#about h2 {
+    padding-bottom: 100px;  /* Adjust the value as required */
+}
 
 
 #background {
