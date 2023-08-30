@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 
-sgMail.setApiKey('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');
+sgMail.setApiKey('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');
 
 app.use(bodyParser.json());
 app.use(cors()); // 
