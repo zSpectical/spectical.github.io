@@ -254,6 +254,12 @@ display: grid;
     margin-top: 310px;
 }
 
+.home-content {
+
+    margin-top: -20px;  /* Adjust this value as needed */
+    
+    
+}
 #location{
     margin-top: -50px;
     font-size: 14px;
