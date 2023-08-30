@@ -49,13 +49,12 @@
                             <a id="github" href="https://github.com/zSpectical">
                                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github">
                             </a>
-                            <a id="email" href="#" onclick="sendEmail(); return false;">
+                            <a id="email" href="#contactme">
                                 <img src="https://clipartix.com/wp-content/uploads/2016/09/Email-symbol-clipart-clipart-kid-3.jpeg" alt="email">
-                            </a>                            
+                            </a>
                             <a id="resume" href="https://zSpectical.github.io/spectical.github.io/RESUMETEST.pdf" target="_blank">
                                 <img src="resumelogo.png" alt="Resume">
                             </a>
-                            <script src="email.js"></script>
 
                         </div>
                     </center>
@@ -172,21 +171,22 @@
             <hr>
             <section id="contactme"> 
                 <h2>Contact Me!</h2>
-                <p> <i>I love meeting new people, learning new things or having a chat about coding!<br> Please leave me a message and I'll be sure to get back to you!</i></p>
-                <form action="mailto:kian.shirvani@outlook.com" method= "post" enctype="text/plain">
-                <div class="contact-container">
-                    <label>Your Name:</label>
-                    <input type="text" name= "yourName" value=""> <br>
-                    <label>Your Email:</label>
-                    <input type="email" name= "yourEmail" value=""> <br>
-                    <label>Your Message:</label>
-                    <textarea name="yourMessage" rows="10" cols="40"> </textarea><br>
-                    <input type="submit" name=""> 
-
-                    
-                </div>             
+                <p> <i>I love meeting new people, learning new things, or having a chat about coding!<br> Please leave me a message and I'll be sure to get back to you!</i></p>
+                <form onsubmit="sendEmail(); return false;">
+                    <div class="contact-container">
+                        <label>Your Name:</label>
+                        <input type="text" id="yourName" name= "yourName" value=""> <br>
+                        <label>Your Email:</label>
+                        <input type="email" id="yourEmail" name= "yourEmail" value=""> <br>
+                        <label>Your Message:</label>
+                        <textarea id="yourMessage" name="yourMessage" rows="10" cols="40"> </textarea><br>
+                        <input type="submit" value="Send Email">
+                    </div> 
                 </form>
             </section>
+            
+            <script src="email.js"></script>
+            
 
             <h2><a id="madeittop"  href="#top"> Click here to go to the top</a></h2>
 
