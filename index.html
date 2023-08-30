@@ -172,7 +172,7 @@
             <section id="contactme"> 
                 <h2>Contact Me!</h2>
                 <p> <i>I love meeting new people, learning new things, or having a chat about coding!<br> Please leave me a message and I'll be sure to get back to you!</i></p>
-                <form onsubmit="sendEmail(); return false;">
+                <form action="http://localhost:3000/send-email" method="post">
                     <div class="contact-container">
                         <label>Your Name:</label>
                         <input type="text" id="yourName" name= "yourName" value=""> <br>
