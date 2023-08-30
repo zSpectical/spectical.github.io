@@ -32,14 +32,24 @@ hr {
     height: 75px;
     z-index: 1000;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will push content to both ends of the container */
+    
+
 
     
 
 }
 .logo img {
-    padding-left: 19px;
+    padding-left: 0; 
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
 }
+
 .home {
+    padding-top: 80px;
     height: 100%;
     position: relative;
     text-align: center;
@@ -61,33 +71,36 @@ hr {
             top: -225px;
             left: 0;
             width: 100%;
-            height: 850px;
+            height: 800px;
             object-fit: cover;
             z-index: -1;
         }
-.navbar a {
-    float: right;
-    display: block;
+
+
+.nav-links {
+    display: flex;
+    flex-direction: row; 
+
+    }
+.nav-links a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    margin-top: -57px;
+    font-size: 24px;
+    font-family: SF system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
-    font-size: 25px;
-    margin-right: 25px;
-    
-    
+    padding-right: 2em;
 }
+        
 
 .navbar a:hover {
-    color:#40dbd6 ;
-    height: 35px;
-    
+    color:#737574 ;
 }
 
-.logo img {height: 50px;
+
+.logo img {height: 60px;
         margin-left: 25px;
         margin-top: 15px;
+        padding-left: 4em;
+        padding-bottom: 0.5em;
         
         
 }
