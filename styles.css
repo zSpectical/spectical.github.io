@@ -454,8 +454,8 @@ main li {
     color: white;
     text-align: center;
     font-size: 22px;
-    margin-top: 1em;
-    padding-top: 1em;
+    margin-top: -1em;
+    padding-top: -1em;
 }
 
 #bringcloser, #contactme h2, #bringcloser2 {
