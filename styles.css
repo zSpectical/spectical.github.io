@@ -542,7 +542,7 @@ main li {
 
 
 #signature {
-    margin-left: auto; /* This will push the div to the right if any extra space is available */
+    margin-left: auto; 
 }
 
 #signature h1 {
@@ -624,5 +624,8 @@ main li {
     #sociallinksfooter img {
         width: 20px;
         height: 20px;
+    }
+    #signature {
+        padding-left: 1em;
     }
 }
