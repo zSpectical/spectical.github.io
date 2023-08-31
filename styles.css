@@ -621,4 +621,8 @@ main li {
         width: 90%; 
         margin: 0 auto; 
     }
+    #sociallinksfooter img {
+        width: 20px;
+        height: 20px;
+    }
 }
