@@ -200,6 +200,7 @@ a.highlight:hover {
 
 #background {
     width: 40%;
+    margin-top: -10px;
     height: 75px;
     margin-left: 150px;
     line-height: 24px;
