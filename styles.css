@@ -187,13 +187,14 @@ a.highlight:hover {
 /*start of about */
 
 #about { 
-    margin-top: 200px;
-    padding-top: 50px;
-    /* ... */
+    margin-top: 5vh;  
+    padding-top: 2vh;
+    
 }
 #about h2 {
-    padding-bottom: 100px;
+    padding-bottom: 5vh;
 }
+
 
 
 #background {
