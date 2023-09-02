@@ -570,8 +570,8 @@ main li {
 
     /* About adjustments */
     .content-container {
-        margin-top: 10vh;  
-        padding-top: 8vh;
+        margin-top: 15vh;  
+        padding-top:12vh;
     }
     #story {
         display: flex;
