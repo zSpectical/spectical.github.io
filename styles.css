@@ -187,9 +187,9 @@ a.highlight:hover {
 /*start of about */
 
 #about { 
-    margin-top: 5vh;  
-    padding-top: 2vh;
-    
+    margin-top: 7vh;  
+    padding-top: 4vh;
+    /* ... */
 }
 #about h2 {
     padding-bottom: 5vh;
