@@ -115,6 +115,10 @@ hr {
         height: 40px; 
         margin: 5px; 
 }
+a:visited {
+    color: inherit;
+}
+
 
 #sociallinks img:hover {
     filter: invert(0.7); 
@@ -188,7 +192,7 @@ a.highlight:hover {
 /*start of about */
 
 #about { 
-    margin-top: 0;   /* Removed extra margin-top for a seamless scroll transition */
+    margin-top: 0; 
     padding-top: 8vh;
 }
 #about h2 {
