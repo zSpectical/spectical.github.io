@@ -117,7 +117,13 @@ hr {
 }
 a:visited {
     color: inherit;
+    
 }
+a img {
+    border: none;
+    outline: none;
+}
+
 
 
 #sociallinks img:hover {
