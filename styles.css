@@ -235,11 +235,11 @@ display: grid;
     text-align: center;
 }
 
-#skillsandtools li:hover{
+#skillsandtools li:hover {
     background-color: gray;
-    color: #225ce3
-    -webkit-box-shadow; 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-    box-shadow;        0px 0px 30px 0px rgba(34, 92, 227, 0.67);
+    color: #225ce3;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow: 0px 0px 30px 0px rgba(34, 92, 227, 0.67);
 }
 
 
